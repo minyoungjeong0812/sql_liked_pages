@@ -1,1 +1,5 @@
 https://www.db-fiddle.com/f/vZqhn1gran6d3KXDsST52q/0
+
+Select *
+from friends f join likes l on f.friendid=l.userid
+where f.userid != l.userid
